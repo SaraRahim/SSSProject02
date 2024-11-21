@@ -37,8 +37,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "00fe3924-f280-4587-aee7-dfe9ab34af65",
             "zIndex": -1,
+            "id": "00fe3924-f280-4587-aee7-dfe9ab34af65",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Internal RideOn System ",
@@ -58,8 +58,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "332bea53-1144-41a8-9888-306f024eaf00",
             "zIndex": -1,
+            "id": "332bea53-1144-41a8-9888-306f024eaf00",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -89,6 +89,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -172,7 +173,6 @@
               ]
             },
             "id": "cd2191f5-73c3-46a1-afc4-17cc4fd7e424",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Bus Drivers",
@@ -205,6 +205,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -288,7 +289,6 @@
               ]
             },
             "id": "e81bea2c-d9dc-440a-811c-8723662d9031",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Administrators",
@@ -321,6 +321,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -404,7 +405,6 @@
               ]
             },
             "id": "0c1070da-4b9a-4140-ada9-faed6d479f3f",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Registered Users",
@@ -437,6 +437,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -520,7 +521,6 @@
               ]
             },
             "id": "24e7c52d-7d09-4a70-a489-e139aec3f74c",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Login Process",
@@ -2574,6 +2574,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -2657,7 +2658,6 @@
               ]
             },
             "id": "d4b5e92f-01f6-4918-b9e6-163b074aea06",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Registration Process",
@@ -2696,6 +2696,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -2779,7 +2780,6 @@
               ]
             },
             "id": "8a4e5015-eb24-481b-b83f-2e24dddb9e14",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Accounts-dbms",
@@ -2816,6 +2816,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -2899,7 +2900,6 @@
               ]
             },
             "id": "2e3bd38d-e0b2-4f69-be17-46292a581e25",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Authentication Process",
@@ -2938,6 +2938,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -3021,7 +3022,6 @@
               ]
             },
             "id": "cc9d9265-e02f-43f4-b353-1f283447c577",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Message-dbms",
@@ -3058,6 +3058,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -3141,7 +3142,6 @@
               ]
             },
             "id": "cde2ae7d-4f76-4007-b5ee-e6e24cbcf919",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "Messaging Process",
@@ -3180,6 +3180,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -3263,7 +3264,6 @@
               ]
             },
             "id": "9f7de25d-05f2-40af-a60c-c48a2ec2626e",
-            "zIndex": 21,
             "data": {
               "type": "tm.Store",
               "name": "Billing-dbms",
@@ -3300,6 +3300,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -3383,7 +3384,6 @@
               ]
             },
             "id": "e547cdb8-c464-4501-a81f-106b34997c21",
-            "zIndex": 22,
             "data": {
               "type": "tm.Process",
               "name": "Modify Account Logic",
@@ -3419,6 +3419,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -3502,7 +3503,6 @@
               ]
             },
             "id": "d3c4f204-81a5-49ed-be5c-0e56bbe4fa10",
-            "zIndex": 23,
             "data": {
               "type": "tm.Process",
               "name": "Admin Control",
@@ -3538,6 +3538,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -3621,7 +3622,6 @@
               ]
             },
             "id": "d0749195-0823-43b0-a802-7ffe6cf092e0",
-            "zIndex": 24,
             "data": {
               "type": "tm.Process",
               "name": "Messages",
@@ -3657,6 +3657,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -3740,7 +3741,6 @@
               ]
             },
             "id": "f82f4a86-7211-4032-9107-44e9155cf3a3",
-            "zIndex": 25,
             "data": {
               "type": "tm.Process",
               "name": "Billing Process",
@@ -3776,6 +3776,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 26,
             "ports": {
               "groups": {
                 "top": {
@@ -3859,7 +3860,6 @@
               ]
             },
             "id": "9eab8931-eea7-42eb-a695-7041da6fbf0c",
-            "zIndex": 26,
             "data": {
               "type": "tm.Process",
               "name": "Pay Bus Fare",
@@ -3895,6 +3895,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 27,
             "ports": {
               "groups": {
                 "top": {
@@ -3978,7 +3979,6 @@
               ]
             },
             "id": "1b142bda-b614-44fd-a2be-c7d776bb20d4",
-            "zIndex": 27,
             "data": {
               "type": "tm.Process",
               "name": "Tip Driver",
@@ -4014,6 +4014,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -4097,7 +4098,6 @@
               ]
             },
             "id": "a4136162-3e30-4108-9381-db7d758d6f32",
-            "zIndex": 28,
             "data": {
               "type": "tm.Process",
               "name": "Feedback Process",
@@ -4133,6 +4133,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 29,
             "ports": {
               "groups": {
                 "top": {
@@ -4216,7 +4217,6 @@
               ]
             },
             "id": "eebeb4e8-aa7b-4edc-9241-3d27ec872e4a",
-            "zIndex": 29,
             "data": {
               "type": "tm.Actor",
               "name": "Payment Gateway",
