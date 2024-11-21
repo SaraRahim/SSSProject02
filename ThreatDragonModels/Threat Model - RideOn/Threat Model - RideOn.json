@@ -1,0 +1,20 @@
+{
+  "version": "2.3.0",
+  "summary": {
+    "title": "Threat Model - RideOn",
+    "owner": "Sara Angelina Rahim",
+    "description": "An entrepreneur has started a new business to improve public transport in Cork City.\nThrough the use of an app called RideOn, registered users can track in real time the current\nposition of buses. They can also use the app to pay their bus fare when boarding a bus. Bus\nDrivers also have special accounts on the app, and regular users can post feedback after\ntaking a bus ride and give good drivers a tip (in addition to the bus fare). Other users can\nview feedback and post replies. If two registered users become friends, they can send\nprivate messages to each other.\nRegistered users and Drivers register their accounts through the app. Administrator\naccounts have full access to the system (through the app) and are able to modify any user\nsettings. They are responsible for upgrading a Driver’s account to have full Driver privileges\nin the app. They can also view all messages for moderation purposes and can access\nfinancial history for customers (but not private info like credit card numbers). Administrator\naccounts were hardcoded into the app and there is no way to register any new ones.There are only 3 types of users of the system described above: Registered Users, Bus\nDrivers and Administrators. All interaction with the service is via the app for all 3 user\ntypes.\nThere are at least 2 databases: Accounts-dbms and Billing-dbms\nAccounts-dbms contains all sensitive personal and account related data for the registered\nusers. Billing-dbms contains data relating to bus fares and tips.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Sara Angelina Rahim"
+      }
+    ],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
